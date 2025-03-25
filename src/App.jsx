@@ -16,7 +16,7 @@ function App(){
             <div class="line"></div>
             <div class="inside2">
             <input type="text" placeholder="fist name" id="aa" />
-            <input type="text" placeholder="surname" id="aa" />
+            <input type="text" placeholder="name" id="aa" />
             </div>
             <div class="inside3">
                 <label>Date of birth ?</label>
