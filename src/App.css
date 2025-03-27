@@ -22,7 +22,8 @@
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-  color: blue;
+  color: #0866ff;
+
 }
 
 .hero1 p{
@@ -31,29 +32,20 @@
 
 .line{
   margin-top: 1em;
-  width: 35em;
+  width: 30em;
   border: 1px solid grey;
-  margin-left: 2px;
+  margin-left:2px;
 }
-
-/*.container2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.apple{
- text-align: center;
-}/*/
 .con{
   display: flex;
   justify-content: center;
-  width: 35em;
+  width: 30em;
   height: 45em;
   border: 1px solid grey;
-  margin-left: 25em;
+  margin-left: 27em;
   margin-top: 2em;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0 ,0 ,0.2 );
 }
 .inside1{
   text-align: center;
@@ -69,46 +61,83 @@
 }
 .inside2 #aa{
   margin-top: 4em;
-  width: 17em;
+  width: 15em;
   height: 3em;
   margin: 15px;
   border: 1px solid grey;
   border-radius: 5px;
   padding: 15px;
 }
-.inside3 p{
-margin-right: 25em;
+.inside3 label{
+margin-right: 21em;
+color: grey;
 }    
 .inside3 #dob{
   margin-top: 1em;
-  width: 10em;
+  width: 8.7em;
   height: 3em;
   border: 1px solid grey;
   border-radius: 5px;
-padding: 10px;
-margin: 20px;
+  padding: 10px;
+  margin: 20px;
 }
 #lg{
-  margin-right: 27em;
+  margin-right: 23em;
   color: grey;
 }
-.inside4 #gg{
+
+.insidey{
   margin-top: 1em;
-  width: 10em;
-  height: 3em;
-  border: 1px solid grey;
-  border-radius: 5px;
-padding: 15px;
-margin: 20px;
 }
+.insidey label{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.inside4{
+  display: flex;
+  justify-content: space-evenly;
+}
+.inside4 label{
+ padding: 10px;
+ border: 1px solid grey;
+ border-radius: 5px;
+ text-align: center;
+ cursor: pointer;
+}
+
+.insidex{
+  margin-top: 1em;
+}
+
 .inside5 #cc{
-  width: 37em;
+  width: 30em;
   height: 4em;
   padding: 10px;
   margin: 5px;
   border: 1px solid grey;
   border-radius: 5px;
 }
+.con input:focus,select:focus,label:focus{
+  border: 2px solid #1877F2; 
+  outline: none; 
+  transition: border 0.3s ease-in-out;
+}
+#cc:focus { 
+  border-color:#1877F2; 
+}
+#aa:focus {
+  border-color:#1877F2;
+}
+#dob:focus {
+  border-color:#1877F2;
+}
+#gg:focus {
+  border-color:#1877F2;
+}
+
+
+
 .inside6 p {
   margin: 15px;
   text-align: center;
@@ -132,6 +161,13 @@ margin: 20px;
 .inside8 h2{
   color:lightseagreen;
   font-size: 21px;
+  font-weight: bold;
+}
+
+.inside8 a{
+  font-size: 17px;
+  text-decoration: none;
+  color: #1877F2;
   font-weight: bold;
 }
 
